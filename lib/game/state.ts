@@ -159,7 +159,7 @@ export function createInitialState(): GameState {
   const units = new Set<EntityId>();
   const buildings = new Set<EntityId>();
   const players: Record<Owner, any> = {
-    player: { gold: 50 },
+    player: { gold: 500 },
     ai: { gold: 50 },
   };
   const logs: Logs = {
