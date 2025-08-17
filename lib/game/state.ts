@@ -1,3 +1,4 @@
+export type { GameState } from "./types";
 import {
   Building,
   BuildingType,
