@@ -2,6 +2,7 @@ import { Building, BuildingType, EntityBase, EntityId, GameState, GRID_H, GRID_W
 import { stepEconomy } from "./systems/economy";
 import { stepProduction } from "./systems/production";
 import { stepCombatAndMovement } from "./systems/combat";
+export type { GameState } from "./types";
 
 export { TICK_MS } from "./types";
 
