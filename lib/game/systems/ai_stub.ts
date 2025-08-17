@@ -1,4 +1,4 @@
-import { Building, BuildingType, GameState, UnitType } from "../types";
+import { Building, BuildingType, GameState, UnitType, GRID_W, GRID_H } from "../types";
 import { trainUnit, tryPlaceBarracks } from "../state";
 
 function findBuilding(gs: GameState, owner: "player"|"ai", type: BuildingType): Building | undefined {
