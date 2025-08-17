@@ -1,0 +1,24 @@
+/* app/globals.css */
+:root {
+  --bg: #0f0f12;
+  --fg: #eaeaea;
+  --muted: #9aa0a6;
+}
+* { box-sizing: border-box; }
+html, body, #__next { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";
+}
+button {
+  background: transparent;
+  color: var(--fg);
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+button:hover { border-color: #555; }
+a { color: #8ab4f8; text-decoration: none; }
